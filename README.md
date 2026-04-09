@@ -79,37 +79,6 @@ python3 tools/frame_generator.py --action validate --frames frames.json
 python3 tools/frame_generator.py --action save --pet mi_mi --action-name dance --frames frames.json
 ```
 
-## 项目结构
-
-```
-pet-skill/
-├── SKILL.md              # 技能入口
-├── README.md
-├── requirements.txt
-├── prompts/              # Agent 提示词
-│   ├── intake.md         # 创建宠物对话流程
-│   ├── personality_analyzer.md  # 性格分析
-│   ├── frame_generator.md      # LLM 帧生成指南
-│   └── interaction.md          # 互动行为指南
-├── portraits/            # ASCII 形象库
-│   └── gallery.json      # 所有动物的 ASCII 肖像
-├── tools/                # Python 工具
-│   ├── portrait_picker.py     # 形象浏览/选择/保存
-│   ├── animator.py             # 终端动画引擎
-│   ├── frame_generator.py      # 帧验证/保存/管理
-│   └── pet_manager.py          # 宠物档案管理
-├── animations/           # 预置动画帧库
-│   ├── cat.json
-│   ├── dog.json
-│   ├── rabbit.json
-│   ├── bird.json
-│   ├── fish.json
-│   ├── hamster.json
-│   └── generic.json
-└── pets/                 # 用户宠物数据
-    └── example_mimi/     # 示例宠物
-```
-
 ## 动画帧格式
 
 每个动画动作的帧数据为 JSON 格式：
@@ -140,6 +109,17 @@ pet-skill/
 | 好奇 (curious) | 探索、东张西望 |
 | 害羞 (shy) | 躲藏、犹豫 |
 | 调皮 (mischievous) | 不规则、出其不意 |
+
+## 联系作者
+
+公众号：程序员学长
+
+![bc135a1543a80804eb9d58de620fe1c5](https://github.com/user-attachments/assets/27a2057c-4f18-49d0-811b-a320fcacbc21)
+
+
+个人微信：
+
+<img width="512" height="498" alt="image" src="https://github.com/user-attachments/assets/9b3accab-a87d-42ed-b9bb-9825e678a90e" />
 
 ## 许可
 
