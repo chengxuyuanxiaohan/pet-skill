@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ### 作为 AI 技能
 
-将本目录放入技能目录（如 `.cursor/skills/pet/` 或 `.claude/skills/pet/`），然后：
+将本目录放入技能目录（如 .claude/skills/`），然后：
 
 - 说 "创建一个宠物" 选择动物和形象
 - 说 "摸摸咪咪" / "和咪咪玩" 等进行互动
