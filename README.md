@@ -2,11 +2,9 @@
 
 从 ASCII 形象库中挑选你的宠物，通过终端 ASCII 动画与它互动。
 
-形象库参考 [ASCII Art Gallery](https://www.asciiart.eu/gallery) 风格。
-
 ## 功能
 
-- **ASCII 形象库** — 内置多种动物的 ASCII 肖像，风格来自 asciiart.eu
+- **ASCII 形象库** — 内置多种动物的 ASCII 肖像
 - **终端动画** — 使用 ANSI 转义序列在终端播放逐帧 ASCII 动画
 - **性格系统** — 根据动物类型分析性格特征，影响动画风格和台词
 - **LLM 动态生成** — 根据宠物性格，由 LLM 动态生成定制 ASCII 动画帧
