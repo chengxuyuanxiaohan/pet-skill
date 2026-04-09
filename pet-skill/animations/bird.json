@@ -1,0 +1,67 @@
+{
+  "animal": "bird",
+  "animations": {
+    "idle": {
+      "frames": [
+        "  \\(' >  \n  /( )   \n   ^ ^   ",
+        "  \\(' >  \n  /( )   \n  ^ ^    "
+      ],
+      "fps": 2,
+      "default_loops": 4
+    },
+    "greet": {
+      "frames": [
+        "  \\(° >  \n (/( )   \n   ^ ^   ",
+        "  \\(° >  \n  /( )\\  \n   ^ ^   ",
+        "  \\(° >  \n (/( )\\  \n   ^ ^   "
+      ],
+      "fps": 4,
+      "default_loops": 2
+    },
+    "happy": {
+      "frames": [
+        "  \\(^ >  \n ♪/( )   \n   ^ ^   ",
+        "  \\(^ >  \n  /( )♪  \n   ^ ^   ",
+        "  \\(^ > ♪\n  /( )   \n   ^ ^   "
+      ],
+      "fps": 4,
+      "default_loops": 3
+    },
+    "sad": {
+      "frames": [
+        "  \\(; >  \n  /( )   \n   ^ ^   ",
+        "  \\(· >  \n  /( )   \n   ^ ^   \n  💧     "
+      ],
+      "fps": 1,
+      "default_loops": 3
+    },
+    "play": {
+      "frames": [
+        "  \\(> >  \n (/( )\\  \n   ^ ^   ",
+        "   \\(> > \n  (/( )  \n         \n    ^ ^  ",
+        "  \\(> >  \n (/( )\\  \n ^ ^     ",
+        " \\(> >   \n(/( )    \n ^ ^     "
+      ],
+      "fps": 5,
+      "default_loops": 3
+    },
+    "sleep": {
+      "frames": [
+        "  \\(- >  \n  /( )   \n  _^ ^_  \n    z    ",
+        "  \\(- >  \n  /( )   \n  _^ ^_  \n   z Z   ",
+        "  \\(- >  \n  /( )   \n  _^ ^_  \n  z Z z  "
+      ],
+      "fps": 1,
+      "default_loops": 4
+    },
+    "eat": {
+      "frames": [
+        "  \\(' >  \n  /( )   \n   ^ ^   \n 🌾      ",
+        "  \\(' >. \n  /( )   \n   ^ ^   \n         ",
+        "  \\(^ >  \n  /( )   \n   ^ ^   \n         "
+      ],
+      "fps": 3,
+      "default_loops": 2
+    }
+  }
+}

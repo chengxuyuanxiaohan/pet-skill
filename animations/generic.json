@@ -1,0 +1,67 @@
+{
+  "animal": "generic",
+  "animations": {
+    "idle": {
+      "frames": [
+        " (·_·)  ",
+        " (·_·)  \n   |    "
+      ],
+      "fps": 2,
+      "default_loops": 4
+    },
+    "greet": {
+      "frames": [
+        " (·_·)/ ",
+        " (^_^)/ ",
+        " (·_·)/ "
+      ],
+      "fps": 3,
+      "default_loops": 2
+    },
+    "happy": {
+      "frames": [
+        " (^_^)  \n   ♥    ",
+        " (^_^)  \n  ♥ ♥   ",
+        " (^_^)  \n ♥ ♥ ♥  "
+      ],
+      "fps": 3,
+      "default_loops": 3
+    },
+    "sad": {
+      "frames": [
+        " (;_;)  ",
+        " (T_T)  \n  💧    "
+      ],
+      "fps": 1,
+      "default_loops": 3
+    },
+    "play": {
+      "frames": [
+        " (>_<)  \n  /|    ",
+        "  (>_<) \n   |\\   ",
+        " (>_<)  \n  /|    ",
+        "(>_<)   \n /|     "
+      ],
+      "fps": 4,
+      "default_loops": 3
+    },
+    "sleep": {
+      "frames": [
+        " (-_-)  \n   z    ",
+        " (-_-)  \n  z Z   ",
+        " (-_-)  \n z Z z  "
+      ],
+      "fps": 1,
+      "default_loops": 4
+    },
+    "eat": {
+      "frames": [
+        " (o_o)  \n 🍎     ",
+        " (o_o)  \n  ~     ",
+        " (^_^)  \n        "
+      ],
+      "fps": 3,
+      "default_loops": 2
+    }
+  }
+}
