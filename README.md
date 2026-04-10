@@ -43,6 +43,8 @@ pip install -r requirements.txt
 - 说 "摸摸咪咪" / "和咪咪玩" 等进行互动
 - 说 "给咪咪生成一个跳舞动画" 让 LLM 创作新动画
 
+<img width="550" height="636" alt="image" src="https://github.com/user-attachments/assets/6009682d-5880-45d8-b106-29504f960d6e" />
+
 ### 命令行工具
 
 ```bash
@@ -76,27 +78,6 @@ python3 tools/frame_generator.py --action validate --frames frames.json
 # 保存自定义帧
 python3 tools/frame_generator.py --action save --pet mi_mi --action-name dance --frames frames.json
 ```
-
-## 动画帧格式
-
-每个动画动作的帧数据为 JSON 格式：
-
-```json
-{
-  "frames": [
-    "  /\\_/\\  \n ( ^.^ ) \n  > ^ <  ",
-    "  /\\_/\\  \n ( ^.^ ) \n  > ^ < ~"
-  ],
-  "fps": 3,
-  "default_loops": 3
-}
-```
-
-约束：
-- 帧宽度 <= 40 字符
-- 帧高度 <= 10 行
-- 每动作 2-6 帧
-- 所有帧行数一致
 
 ## 性格特征
 
